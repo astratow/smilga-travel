@@ -239,7 +239,7 @@ About
   .about-center {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
   }
   .about-img,
   .about-info {
@@ -247,6 +247,20 @@ About
     margin-bottom: 0;
     align-items: center;
   }
+}
+@media screen and (min-width: 1170) {
+    .about-img::before {
+        content: "";
+        position: absolute;
+        box-sizing: border-box;
+        background: red;
+        border: 0.5rem solid var(--clr-primary-5);
+        top: -1.5;
+        left: 1.5;
+   }
+    .about-img {
+        position: relative;
+    }
 }
 /* section add to globals */
 /* title add to globals */
