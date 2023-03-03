@@ -160,13 +160,13 @@ p {
   color: var(--clr-primary-5);
 }
 .section-center {
-  width: 90vh;
+  width: 90vw;
   margin: 0 auto;
   max-width: 1170;
 }
 @media screen and (min-width:992px) {
   .section-center{
-   width: 95vh;
+   width: 95vw;
  }
 }
 
@@ -256,7 +256,7 @@ About
         background: red;
         border: 0.5rem solid var(--clr-primary-5);
         top: -1.5;
-        left: 1.5;
+        left: -1.5;
    }
     .about-img {
         position: relative;
