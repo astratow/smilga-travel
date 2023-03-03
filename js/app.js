@@ -1,7 +1,7 @@
 // ********** set date ************
 // select span
-const date = (document.getElementById(
-  "date"
+const year = (document.getElementById(
+  "year"
 ).innerHTML = new Date().getFullYear());
 
 // ********** nav toggle ************
